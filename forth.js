@@ -10,12 +10,22 @@
 
 // console.log("Factorial of ", fact);
 
+// let n = prompt("Enter the number");
+// let fact = 1;
+// let i = 1;
+// while(i <= n) {
+//     fact = fact * i;
+//     i++;
+// }
+
+// console.log("Factorial of ", fact);
+
 let n = prompt("Enter the number");
 let fact = 1;
 let i = 1;
-while(i <= n) {
+do{
     fact = fact * i;
     i++;
-}
+}while(i <= n);
 
 console.log("Factorial of ", fact);
